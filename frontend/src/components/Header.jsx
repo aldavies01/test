@@ -7,13 +7,16 @@ import {
   NavbarCollapse,
 } from "react-bootstrap";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
+          <img src={logo} alt="logo" />
           <Navbar.Brand href="/">ProShop</Navbar.Brand>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
