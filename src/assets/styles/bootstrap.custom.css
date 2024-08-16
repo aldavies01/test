@@ -44,7 +44,7 @@
   --bs-warning-rgb: 243, 156, 18;
   --bs-danger-rgb: 231, 76, 60;
   --bs-light-rgb: 244, 244, 244;
-  --bs-dark-rgb: 123, 138, 139;
+  --bs-dark-rgb: 2, 21, 38;
   --bs-primary-text: #303d4a;
   --bs-secondary-text: #7b8a8b;
   --bs-success-text: #13967d;
@@ -4435,9 +4435,9 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-color: rgb(0, 0, 0)
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
-  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-disabled-color: rgb(255, 255, 255);
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;

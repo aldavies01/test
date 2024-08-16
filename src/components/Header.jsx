@@ -12,7 +12,13 @@ import logo from "../assets/logo.png";
 const Header = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        expand="lg"
+        collapseOnSelect
+        className="pt-4 pb-4"
+      >
         <Container>
           <img src={logo} alt="logo" />
           <Navbar.Brand href="/">ProShop</Navbar.Brand>
