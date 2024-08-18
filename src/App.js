@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import HomeScreen from "./screens/homescreen";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
@@ -10,8 +10,9 @@ const App = () => {
       <Header />
       <main className="py-3">
         <Container>
-          <h1>Welcome to Pro Shop</h1>
-          <HomeScreen />
+          {/* // this is a placeholder for the content of the page, where the child
+          routes will be rendered */}
+          <Outlet />
         </Container>
       </main>
       <Footer />
